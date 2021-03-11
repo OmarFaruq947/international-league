@@ -4,8 +4,7 @@ import Home from './components/Home/Home';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import Details from './components/Details/Details';
 import NoMatch from './components/NoMatch/NoMatch';

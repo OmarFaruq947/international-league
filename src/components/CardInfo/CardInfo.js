@@ -15,7 +15,7 @@ const CardInfo = (props) => {
         fetch(url)
         .then( res => res.json())
         .then( data => setLogo(data.leagues[0]))
-    },[])
+    },[idLeague])
 
     return (
         <div>

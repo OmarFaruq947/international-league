@@ -17,7 +17,7 @@ useEffect(()=> {
     fetch(url)
     .then( res => res.json())
     .then( data => setInfo(data.leagues[0]))
-},[])
+},[idLeague])
     
     const {strBadge,strLeague,intFormedYear,strCountry,strSport,strGender} =info;
     return (
