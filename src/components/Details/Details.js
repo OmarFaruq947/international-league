@@ -7,7 +7,7 @@ import iconFB from '../../icon/Facebook.png';
 import iconTW from '../../icon/Twitter.png';
 import iconYU from '../../icon/YouTube.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTransgender,faFutbol , faFlag, faClock, faFacebook, faTwitter,faYoutube, } from '@fortawesome/free-solid-svg-icons';
+import { faTransgender,faFutbol , faFlag, faClock } from '@fortawesome/free-solid-svg-icons';
 
 const Details = () => {
     const { idLeague } = useParams();
