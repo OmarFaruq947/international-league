@@ -10,38 +10,26 @@ import {
 import Details from './components/Details/Details';
 import NoMatch from './components/NoMatch/NoMatch';
 
-
-
-
 function App() {
   return (
     <div className="App">
-
     <Router>
       <Switch>
         <Route path="/Home">
            <Home></Home>
         </Route>
-
         <Route exact path="/">
            <Home></Home>
         </Route>
-
-
         <Route path="/Details/:idLeague">
            <Details></Details>
         </Route>
-
         <Route path="*">
           <NoMatch></NoMatch>
         </Route>
-
-
       </Switch>
     </Router>
-    
     </div>
   );
 }
-
 export default App;

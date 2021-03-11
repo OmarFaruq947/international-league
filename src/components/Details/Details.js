@@ -19,24 +19,24 @@ useEffect(()=> {
     .then( data => setInfo(data.leagues[0]))
 },[])
     
+    const {strBadge,strLeague,intFormedYear,strCountry,strSport,strGender} =info;
     return (
         <div className="detailsBody">
             <div className="topIMG">
             <div>
-                <div className="Badge"><img className="Badge_siz" src={info.strBadge} alt=""/></div>
-                <h4 className="title_details">{info.strLeague}</h4>
+                <div className="Badge"><img className="Badge_siz" src={strBadge} alt=""/></div>
+                <h4 className="title_details">{strLeague}</h4>
             </div>
             </div>
             <br/><br/>
             <div className="container">
-
                 <div className="detailsCard">
                     <div className="cardDetails">
                         <h4>{info.strLeague}</h4>
-                        <p><FontAwesomeIcon icon={faClock} /> Founded: {info.intFormedYear} </p>
-                        <p><FontAwesomeIcon icon={faFlag} /> Country: {info.strCountry} </p>
-                        <p><FontAwesomeIcon icon={faFutbol} /> Sport Type: {info.strSport}</p>
-                        <p><FontAwesomeIcon icon={faTransgender} /> Gender: {info.strGender}</p>
+                        <p><FontAwesomeIcon icon={faClock} /> Founded: {intFormedYear} </p>
+                        <p><FontAwesomeIcon icon={faFlag} /> Country: {strCountry} </p>
+                        <p><FontAwesomeIcon icon={faFutbol} /> Sport Type: {strSport}</p>
+                        <p><FontAwesomeIcon icon={faTransgender} /> Gender: {strGender}</p>
                     </div>
                     <div className="detailsCardRight">
                        {
@@ -44,7 +44,6 @@ useEffect(()=> {
                     </div>
                 </div>
 <br/>
-
                 <div className="details_text">
                     <p>{info.strDescriptionEN}</p>
                 </div>

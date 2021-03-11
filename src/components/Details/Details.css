@@ -2,7 +2,6 @@
     color:wheat;
     font-size: 70px;
     text-align: center;
-
 }
 .Badge_siz{
     width: 200px;
@@ -11,7 +10,6 @@
     background-image: url(../../image/banner-2.jpg);
     background-size: cover;
     height: 300px;
-    /* opacity: 0.2; */
 }
 .detailsBody{
     background-color: #0E0A2A;
@@ -36,9 +34,8 @@
     margin-top: 10px;
     margin-bottom:10px;
     margin-right: 10px;
-
 }
-.details_text,.id{
+.details_text{
     color: white;
 }
 .sosialIcon{
@@ -47,4 +44,39 @@ margin-top: 100px;
 }
 .icons{
     width: 40px;
+}
+@media screen and (max-width:720px){
+    .title_details,.Badge{
+        color:wheat;
+        font-size: 50px;
+        text-align: center;
+    
+    }
+    .Badge_siz{
+        width: 150px;
+    }
+    .topIMG{
+        background-image: url(../../image/banner-2.jpg);
+        background-size: cover;
+        height: 250px;
+    }
+    .team{
+        width: 490px;
+        display: block;
+        margin-top: 10px;
+        margin-bottom:10px;
+        margin-right: 10px;
+        margin-left:10px;
+    }
+
+    .cardDetails{
+        color: white;
+    }
+    .detailsCard{
+        display: flex;
+        justify-content:space-between;
+        background-color:#3A42FF;
+        border-radius: 10px;
+        flex-direction: column;
+    }
 }

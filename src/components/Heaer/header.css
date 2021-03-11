@@ -11,3 +11,18 @@
     padding: 70px 0;
     text-align: center;
 }
+@media screen and (max-width:720px){
+    .banner_1{
+        height: 200px;
+        background-image: url(../../image/banner-1.jpg);
+        background-size: cover;
+    }
+    .banner_top_text{
+        color:whitesmoke;
+        font-size: 60px;
+        text-align: center;
+        font-weight:bold;
+        padding: 70px 0;
+        text-align: center;
+    }
+}

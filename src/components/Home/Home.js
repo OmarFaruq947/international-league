@@ -3,15 +3,13 @@ import './Home.css';
 import CardInfo from '../CardInfo/CardInfo';
 import Header from '../Heaer/Header';
 
-
 const Home = () => {
 
     const [footballData , setFootballData] =useState([]);
     useEffect(()=> {
         fetch (`https://www.thesportsdb.com/api/v1/json/1/all_leagues.php`)
         .then(res => res.json())
-        .then(data => setFootballData(data.leagues) )
-        //  console.log(footballData.length);
+        .then(data => setFootballData(data.leagues))
 
     },[])
     return (
