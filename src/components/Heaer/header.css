@@ -1,0 +1,13 @@
+.banner_1{
+    height: 300px;
+    background-image: url(../../image/banner-1.jpg);
+    background-size: cover;
+}
+.banner_top_text{
+    color:whitesmoke;
+    font-size: 70px;
+    text-align: center;
+    font-weight:bold;
+    padding: 70px 0;
+    text-align: center;
+}

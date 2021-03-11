@@ -1,0 +1,50 @@
+.title_details,.Badge{
+    color:wheat;
+    font-size: 70px;
+    text-align: center;
+
+}
+.Badge_siz{
+    width: 200px;
+}
+.topIMG{
+    background-image: url(../../image/banner-2.jpg);
+    background-size: cover;
+    height: 300px;
+    /* opacity: 0.2; */
+}
+.detailsBody{
+    background-color: #0E0A2A;
+    height: 100%;
+}
+.detailsCard{
+    display: flex;
+    justify-content:space-between;
+    background-color:#3A42FF;
+    border-radius: 10px;
+}
+.detailsCardRight{
+    max-width: 400px;
+}
+.cardDetails{
+    margin-left: 30px;
+    color: white;
+}
+.team{
+    width: 370px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom:10px;
+    margin-right: 10px;
+
+}
+.details_text,.id{
+    color: white;
+}
+.sosialIcon{
+margin-left:50%;
+margin-top: 100px;
+}
+.icons{
+    width: 40px;
+}
